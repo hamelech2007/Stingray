@@ -2,8 +2,11 @@
 
 // FOR USE BY STINGRAY APPS
 
-#include <stdio.h>
 #include "Stingray/Application.h"
+#include "Stingray/Log.h"
+#include "Stingray/Layer.h"
+#include "Stingray/Events/Event.h"
+#include "Stingray/ImGui/ImGuiLayer.h"
 
 
 // ----------Entry Point----------

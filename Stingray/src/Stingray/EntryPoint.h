@@ -6,7 +6,12 @@
 extern Stingray::Application* Stingray::CreateApplication();
 
 int main(int argc, char** argv) {
-	printf("Stingray Engine");
+	
+	Stingray::Log::Init();
+	SR_CORE_WARN("Initialized Log!");
+	SR_INFO("Hello!");
+
+
 	auto app = Stingray::CreateApplication();
 	app->Run();
 	delete app;
