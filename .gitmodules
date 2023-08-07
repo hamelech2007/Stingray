@@ -1,0 +1,9 @@
+[submodule "Stingray/vendor/spdlog"]
+	path = Stingray/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Stingray/vendor/GLFW"]
+	path = Stingray/vendor/GLFW
+	url = https://github.com/TheCherno/GLFW
+[submodule "Stingray/vendor/imgui"]
+	path = Stingray/vendor/imgui
+	url = https://github.com/TheCherno/imgui
