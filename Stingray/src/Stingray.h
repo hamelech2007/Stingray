@@ -6,6 +6,11 @@
 #include "Stingray/Log.h"
 #include "Stingray/Layer.h"
 #include "Stingray/Events/Event.h"
+
+#include "Stingray/Input.h"
+#include "Stingray/MouseButtonCodes.h"
+#include "Stingray/KeyCodes.h"
+
 #include "Stingray/ImGui/ImGuiLayer.h"
 
 

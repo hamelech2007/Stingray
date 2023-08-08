@@ -7,3 +7,6 @@
 [submodule "Stingray/vendor/imgui"]
 	path = Stingray/vendor/imgui
 	url = https://github.com/TheCherno/imgui
+[submodule "Stingray/vendor/glm"]
+	path = Stingray/vendor/glm
+	url = https://github.com/g-truc/glm

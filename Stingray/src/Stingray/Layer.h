@@ -1,4 +1,5 @@
 #pragma once
+#pragma warning( disable : 4251 )
 
 #include "Stingray/Core.h"
 #include "Stingray/Events/Event.h"

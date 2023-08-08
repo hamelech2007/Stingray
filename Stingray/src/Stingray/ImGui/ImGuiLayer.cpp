@@ -1,3 +1,5 @@
+#pragma warning( disable : 4244 )
+
 #include "srpch.h"
 #include "ImGuiLayer.h"
 

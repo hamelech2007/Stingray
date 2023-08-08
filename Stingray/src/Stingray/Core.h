@@ -11,6 +11,11 @@
 	#error Stingray supports Windows only!
 #endif
 
+#ifdef SR_DEBUG
+	#define SR_ENABLE_ASSERTS
+#endif
+
+
 #ifdef SR_ENABLE_ASSERTS
 	#define SR_ASSERT(x,...) { if(!(x)) {SR_CRITICAL("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); }}
 	#define SR_CORE_ASSERT(x,...) { if(!(x)) {SR_CORE_CRITICAL("Assertion Failed: {0}", __VA_ARGS__); __debugbreak(); }}
