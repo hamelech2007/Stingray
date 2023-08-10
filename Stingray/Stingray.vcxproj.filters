@@ -16,9 +16,6 @@
     <Filter Include="src\Stingray\Platform">
       <UniqueIdentifier>{C1CA5127-2D37-0D22-F62A-A57F62562F8A}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Stingray\Platform\OpenGL">
-      <UniqueIdentifier>{D5B02894-C16B-1840-6A23-918A56BD62D0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\Stingray\Platform\Windows">
       <UniqueIdentifier>{FBA55A71-67BE-419B-306B-D1349C42D634}</UniqueIdentifier>
     </Filter>
@@ -92,9 +89,6 @@
     </ClInclude>
     <ClInclude Include="src\Stingray\MouseButtonCodes.h">
       <Filter>src\Stingray</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Stingray\Platform\OpenGL\ImGuiOpenGLRenderer.h">
-      <Filter>src\Stingray\Platform\OpenGL</Filter>
     </ClInclude>
     <ClInclude Include="src\Stingray\Platform\Windows\WindowsInput.h">
       <Filter>src\Stingray\Platform\Windows</Filter>
@@ -1391,6 +1385,9 @@
     <ClCompile Include="src\Stingray\Application.cpp">
       <Filter>src\Stingray</Filter>
     </ClCompile>
+    <ClCompile Include="src\Stingray\ImGui\ImGuiBuild.cpp">
+      <Filter>src\Stingray\ImGui</Filter>
+    </ClCompile>
     <ClCompile Include="src\Stingray\ImGui\ImGuiLayer.cpp">
       <Filter>src\Stingray\ImGui</Filter>
     </ClCompile>
@@ -1402,9 +1399,6 @@
     </ClCompile>
     <ClCompile Include="src\Stingray\Log.cpp">
       <Filter>src\Stingray</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Stingray\Platform\OpenGL\ImGuiOpenGLRenderer.cpp">
-      <Filter>src\Stingray\Platform\OpenGL</Filter>
     </ClCompile>
     <ClCompile Include="src\Stingray\Platform\Windows\WindowsInput.cpp">
       <Filter>src\Stingray\Platform\Windows</Filter>

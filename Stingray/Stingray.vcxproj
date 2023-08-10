@@ -169,7 +169,6 @@
     <ClInclude Include="src\Stingray\LayerStack.h" />
     <ClInclude Include="src\Stingray\Log.h" />
     <ClInclude Include="src\Stingray\MouseButtonCodes.h" />
-    <ClInclude Include="src\Stingray\Platform\OpenGL\ImGuiOpenGLRenderer.h" />
     <ClInclude Include="src\Stingray\Platform\Windows\WindowsInput.h" />
     <ClInclude Include="src\Stingray\Platform\Windows\WindowsWindow.h" />
     <ClInclude Include="src\Stingray\Window.h" />
@@ -603,11 +602,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Stingray\Application.cpp" />
+    <ClCompile Include="src\Stingray\ImGui\ImGuiBuild.cpp" />
     <ClCompile Include="src\Stingray\ImGui\ImGuiLayer.cpp" />
     <ClCompile Include="src\Stingray\Layer.cpp" />
     <ClCompile Include="src\Stingray\LayerStack.cpp" />
     <ClCompile Include="src\Stingray\Log.cpp" />
-    <ClCompile Include="src\Stingray\Platform\OpenGL\ImGuiOpenGLRenderer.cpp" />
     <ClCompile Include="src\Stingray\Platform\Windows\WindowsInput.cpp" />
     <ClCompile Include="src\Stingray\Platform\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\srpch.cpp">

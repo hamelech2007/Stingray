@@ -7,6 +7,8 @@
 #include "Stingray/Events/Event.h"
 #include "Stingray/Events/ApplicationEvent.h"
 
+#include "Stingray/ImGui/ImGuiLayer.h"
+
 namespace Stingray {
 
 	class STINGRAY_API Application
@@ -30,6 +32,7 @@ namespace Stingray {
 		bool OnWindowClose(WindowCloseEvent& e);
 
 		std::unique_ptr<Window> m_Window;
+		ImGuiLayer* m_ImGuiLayer;
 		bool m_Running = true;
 		LayerStack m_LayerStack;
 	private:

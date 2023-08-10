@@ -121,7 +121,8 @@ project "Sandbox"
 	{
 		"Stingray/vendor/spdlog/include",
 		"Stingray/src",
-		"%{IncludeDir.glm}"
+		"%{IncludeDir.glm}",
+		"Stingray/vendor"
 	}
 
 	links
